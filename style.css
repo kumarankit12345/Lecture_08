@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins';
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 15px;
+}
+
+.logo {
+    display: flex;
+    height: 50%;
+}
+.menu{
+    height: 70%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    
+}
+
+.header-container {
+
+    margin-bottom: 50px;
+    background-image: url(https://polar.gbjsolution.com/content/images/2017/05/cover-image.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image:no-repeat;
+}
+
+.web-title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 20px;
+}
+
+.text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-dark {
+   
+    color: #fff;
+}
+.section-title{
+    font-size: 45px;
+}
+.blog-card{
+    width: 80%;
+}
+.grey-section{
+    background-color: #ddd;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.custom-container{
+    width: 80%;
+    margin: auto;
+}
+.blog-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+   
+}
+.socials{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.socials i{
+    background-color: #232323;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+}
+.blog-title{
+    text-align: center;
+}
+.desc{
+    text-align: center;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+}
